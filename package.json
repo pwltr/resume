@@ -9,6 +9,10 @@
   },
   "author": "",
   "license": "ISC",
+  "dependencies": {
+    "lodash": ">=4.17.5",
+    "uglify-js": ">=2.6.0"
+  },
   "devDependencies": {
     "resume-cli": "^1.1.2"
   }
