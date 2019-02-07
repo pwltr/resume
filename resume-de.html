@@ -1,0 +1,593 @@
+<!doctype html>
+<html>
+
+<head>
+
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, minimal-ui">
+
+	<title>Philipp Walter</title>
+
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.2.0/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/octicons/2.0.2/octicons.min.css">
+
+	<style type="text/css">
+		@import url(https://fonts.googleapis.com/css?family=Lato:400,700
+);
+
+		body {
+			background: #fff;
+			font-family: Lato, sans-serif;
+			margin: 0 0 80px;
+		}
+
+		a {
+			color: #2ecc71;
+		}
+
+		a:focus,
+		a:hover {
+			color: #f1c40f;
+			text-decoration: none;
+		}
+
+		p {
+			line-height: 1.5;
+			margin: 0;
+		}
+
+		p+p {
+			margin-top: 10px;
+		}
+
+		h1,
+		h2,
+		h3,
+		h4 {
+			margin-top: 0
+		}
+
+		section {
+			margin-top: 30px;
+		}
+
+		li {
+			line-height: 1.8;
+			list-style: none;
+		}
+
+		li:before {
+			content: "\f052";
+			float: left;
+			font: 13px Octicons;
+			margin-top: 6px;
+			margin-left: -20px;
+			opacity: .1;
+			position: absolute;
+		}
+
+		blockquote {
+			border-left: 5px solid #e7e9ec;
+			font-size: 14px;
+		}
+
+		em {
+			color: #95a5a6;
+			font-weight: normal;
+			font-style: normal;
+		}
+
+		h4 span:first-child {
+			color: #000;
+			font-weight: bold;
+		}
+
+		.container {
+			max-width: 1024px;
+			padding: 0 30px;
+		}
+
+		.col-sm-6 {
+			margin-bottom: 10px;
+		}
+
+		.col-sm-12 h4 {
+			margin-top: 12px;
+		}
+
+		.col-sm-12+.col-sm-12 {
+			margin-top: 30px;
+		}
+
+		#header {
+			background: #f4f6f6;
+			padding: 40px 0;
+			margin-bottom: 30px;
+		}
+
+		#header h2 {
+			color: #95a5a6;
+			font-size: 24px;
+		}
+
+		#header img {
+			border: 5px solid white;
+			border-radius: 50%;
+			height: 180px;
+		}
+
+		#content h3 {
+			color: rgba(0, 0, 0, 0.5);
+			font-size: 26px;
+			margin-top: -4px;
+		}
+
+		#content aside {
+			text-align: right;
+			padding-right: 30px;
+		}
+
+		#profiles .network {
+			text-transform: capitalize;
+		}
+
+		#work .position,
+		#volunteer .position {
+			font-weight: bold;
+			margin-bottom: 8px;
+		}
+
+		#education .area {
+			font-weight: bold;
+		}
+
+		#education .area:before {
+			content: "\f0d7";
+			font: 16px Octicons;
+			margin-right: 6px;
+		}
+
+		#education .studyType {
+			margin-left: 25px;
+		}
+
+		#awards .summary,
+		#publications .summary {
+			margin-top: 8px;
+		}
+
+		#publications .website a:before {
+			content: attr(href);
+		}
+
+		@media (min-width: 480px) {
+			.strike-through {
+				border-top: 1px solid #f4f6f6;
+				height: 20px;
+				margin-top: 12px;
+				margin-bottom: -2px;
+				position: relative;
+			}
+
+			.strike-through span,
+			.strike-through a {
+				background: #fff;
+				position: absolute;
+			}
+
+			.strike-through span:first-child {
+				padding-right: 20px;
+				margin-top: -12px;
+			}
+
+			.strike-through span+span {
+				font-size: 14px;
+				margin-top: -10px;
+				padding-left: 20px;
+				right: 0;
+			}
+		}
+
+		@media (max-width: 768px) {
+			.col-sm-6:last-child {
+				margin-bottom: 0px;
+			}
+
+			#content aside {
+				margin-bottom: 20px;
+				padding-right: 0;
+				text-align: left;
+			}
+
+			#publications .website a:before {
+				content: "View publication";
+			}
+		}
+
+		@media (max-width: 480px) {
+			h1 {
+				font-size: 26px;
+			}
+
+			.date {
+				font-size: 14px;
+				margin-bottom: 5px;
+			}
+
+			.strike-through span:first-child {
+				margin-bottom: 7px;
+			}
+
+			.strike-through span {
+				display: block;
+			}
+
+			#header {
+				margin-bottom: 10px;
+				padding: 40px 0;
+			}
+
+			#actions {
+				display: none;
+			}
+		}
+	</style>
+
+</head>
+
+<body>
+
+	<header id="header">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-9 col-sm-push-3">
+					<h1>
+						Philipp Walter
+					</h1>
+					<h2>
+						Senior JavaScript Engineer
+					</h2>
+					<div class="row" style="margin-top: 50px;">
+						<div class="col-sm-3">
+							<strong>E-Mail</strong>
+							<div class="email">philippwalter@pm.me</div>
+						</div>
+						<div class="col-sm-3">
+							<strong>Telefon</strong>
+							<div class="phone">+436605793113</div>
+						</div>
+						<div class="col-sm-3">
+							<strong>Webseite</strong>
+							<div class="website">
+								<a href="https://pwltr.me">pwltr.me</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-3">
+					<img src="https://media.licdn.com/dms/image/C4E03AQFhBnMbafNATw/profile-displayphoto-shrink_200_200/0?e=1554940800&v=beta&t=UByNfrP48F_p6AKydqCDwqmXpBZ1NKUqzHXe_MSsiE4"
+					 alt="Profilbild">
+				</div>
+			</div>
+		</div>
+	</header>
+	<div id="content" class="container">
+
+		<!-- <section id="contact" class="row">
+		<aside class="col-sm-3">
+			<h3>Kontakt</h3>
+		</aside>
+		<div class="col-sm-9">
+			<div class="row">
+			<div class="col-sm-6">
+				<strong>Email</strong>
+				<div class="email">philippwalter@pm.me</div>
+			</div>
+			<div class="col-sm-6">
+				<strong>Phone</strong>
+				<div class="phone">+436605793113</div>
+			</div>
+			<div class="col-sm-6">
+				<strong>Website</strong>
+				<div class="website">
+					<a href="https://pwltr.me">https://pwltr.me</a>
+				</div>
+			</div>
+			</div>
+		</div>
+	</section> -->
+		<section id="about" class="row">
+			<aside class="col-sm-3">
+				<h3>Statement</h3>
+			</aside>
+			<div class="col-sm-9">
+				<p>Fullstack JavaScript Developer mit Leidenschaft für die Entwicklung und dem Erlernen von Technologien. Ich bin
+					in der Lage ein breites Spektrum an Lösungen umzusetzen und bereit eigenverantwortlich und aktiv zu handeln.
+					Teamarbeit und der gemeinsame Austausch von Ideen sind für mich bei jedem Projekt Vorraussetzung.</p>
+			</div>
+		</section>
+		<section id="profiles" class="row">
+			<aside class="col-sm-3">
+				<h3>Web</h3>
+			</aside>
+			<div class="col-sm-9">
+				<div class="row">
+					<div class="col-sm-4">
+						<strong class="network">
+							LinkedIn
+						</strong>
+						<div class="username">
+							<div class="url">
+								<a href="https://linkedin.com/in/philipp-walter">linkedin.com/in/philipp-walter</a>
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-4">
+						<strong class="network">
+							GitHub
+						</strong>
+						<div class="username">
+							<div class="url">
+								<a href="https://github.com/backdot">github.com/backdot</a>
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-4">
+						<strong class="network">
+							Twitter
+						</strong>
+						<div class="username">
+							<div class="url">
+								<a href="https://twitter.com/_backdot">@_backdot</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section id="work" class="row">
+			<aside class="col-sm-3">
+				<h3>Berufserfahrung</h3>
+			</aside>
+			<div class="col-sm-9">
+				<div class="row">
+					<div class="col-sm-12">
+						<h4 class="strike-through">
+							<span>abss interactive</span>
+							<span class="date">
+								01.06.2015 — 31.01.2019
+							</span>
+						</h4>
+						<div class="website pull-right">
+							<a href="https://abss.at">abss.at</a>
+						</div>
+						<div class="position">
+							(Lead) Frontend Developer
+						</div>
+						<div class="summary">
+							<p>Online-Agentur, die neben Web- und Mobile-Projekten auch komplexe technische Lösungen entwickelt. Konzeption,
+								Design, Entwicklung, Hosting und Wartung</p>
+						</div>
+						<h4>Tätigkeiten</h4>
+						<ul class="highlights">
+							<li class="bullet">Erstellung von wartbarem und wiederverwendbarem Frontend-Code mit Anbindung an ein eigenes
+								Backend</li>
+							<li class="bullet">Design von Frontend-Architekturen zur Verbesserung der Projektwartbarkeit</li>
+							<li class="bullet">Einrichten von Frontend-Build-Tooling und Entwicklungsumgebungen mit Docker</li>
+							<li class="bullet">Erstellung von Dokumentationen um Entwickler Onboarding zu erleichtern</li>
+							<li class="bullet">Unterstützung von Junior-Entwicklern und Weitergabe von Best Practices</li>
+							<li class="bullet">Optimierung interner Prozesse und Einführung organisatorischer Mittel wie Git und Docker</li>
+							<li class="bullet">Beratung von Kunden bei technischen Meetings und via Online-Kommunikation</li>
+							<li class="bullet">Browser- und Performanceoptimierung bestehender Applikationen</li>
+							<li class="bullet">Automatisierung langwieriger Schritte bei der Erstellung von responsive Newslettern und
+								Landingpages</li>
+							<li class="bullet">Einhaltung eines agilen Entwicklungsprozesses mit kurzen Release-Zyklen und sehr häufigen
+								Deployments</li>
+						</ul>
+					</div>
+					<div class="col-sm-12">
+						<h4 class="strike-through">
+							<span>Freelance Webdeveloper</span>
+							<span class="date">
+								01.07.2013 — 31.05.2015
+							</span>
+						</h4>
+						<div class="summary">
+							<p>Development &amp; Design, Content Management, SEO, Consulting</p>
+						</div>
+						<h4>Tätigkeiten</h4>
+						<ul class="highlights">
+							<li class="bullet">Beratung von Kunden für Web-Lösungen und Support via Online-Kommunikation</li>
+							<li class="bullet">Erweiterung und Wartung bestehender Webapplikationen</li>
+							<li class="bullet">Einschulungen in diversen CMS wie WordPress und Typo3</li>
+							<li class="bullet">Betreuung von Content-Management und Weitergabe von SEO Know-How</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section id="skills" class="row">
+			<aside class="col-sm-3">
+				<h3>Skills</h3>
+			</aside>
+			<div class="col-sm-9">
+				<div class="row">
+					<div class="col-sm-6">
+						<div class="name">
+							<h4>Frontend</h4>
+						</div>
+						<ul class="keywords">
+							<li>JavaScript ES6+</li>
+							<li>TypeScript</li>
+							<li>React &amp; React Native</li>
+							<li>GraphQL</li>
+							<li>Webpack</li>
+							<li>SASS</li>
+						</ul>
+					</div>
+					<div class="col-sm-6">
+						<div class="name">
+							<h4>Backend</h4>
+						</div>
+						<ul class="keywords">
+							<li>Node.js (Next.js, Express.js)</li>
+							<li>PostgreSQL</li>
+							<li>TypeORM</li>
+							<li>PHP (Laravel)</li>
+							<li>Docker</li>
+							<li>Git</li>
+						</ul>
+					</div>
+					<div class="col-sm-6">
+						<div class="name">
+							<h4>Stacks</h4>
+						</div>
+						<ul class="keywords">
+							<li>Next.js / GraphQL / TypeORM / PostgreSQL</li>
+							<li>JAM Stack für Blogs u. Landingpages</li>
+						</ul>
+					</div>
+					<div class="col-sm-6">
+						<div class="name">
+							<h4>Design</h4>
+						</div>
+						<ul class="keywords">
+							<li>Adobe Illustrator</li>
+							<li>Sketch</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section id="education" class="row">
+			<aside class="col-sm-3">
+				<h3>Ausbildung</h3>
+			</aside>
+			<div class="col-sm-9">
+				<div class="row">
+					<div class="col-sm-12">
+						<h4 class="strike-through">
+							<span>Selbststudium</span>
+							<span class="date">
+								01.02.2013 — aktuell
+							</span>
+						</h4>
+						<div class="area">
+							Information Technology
+						</div>
+						<div class="studyType">
+							Online, Bücher
+						</div>
+						<div class="row">
+							<div class="col-sm-6">
+								<div class="name">
+									<h4>Plattformen</h4>
+								</div>
+								<ul class="keywords">
+									<li>freeCodeCamp</li>
+									<li>Treehouse</li>
+									<li>Udemy</li>
+								</ul>
+							</div>
+							<div class="col-sm-6">
+								<div class="name">
+									<h4>Bücher</h4>
+								</div>
+								<ul class="keywords">
+									<li>Eloquent JavaScript</li>
+									<li>JavaScript Design Patterns</li>
+									<li>You Don't Know JS</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section id="references" class="row">
+			<aside class="col-sm-3">
+				<h3>Empfehlungen</h3>
+			</aside>
+			<div class="col-sm-9">
+				<div class="row">
+				<div class="col-sm-12">
+					<blockquote class="reference">
+						<p>Herr Walter konnte sowohl als Projektleiter einzelner Website-Aufträge als auch als Teamplayer überzeugen. Er besitzt ein breites, jederzeit verfügbares Fachwissen, mit dessen Hilfe er auch schwierige Fragen erfolgreich löste. In Eigeninitiative bildete er sich stets fort und war jederzeit bereit, sein Wissen und Können auch anderen zu vermitteln.</p>
+						<p class="name">
+							<strong>— Vinzenz Schwarz</strong>
+						</p>
+					</blockquote>
+				</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- <section id="languages" class="row">
+			<aside class="col-sm-3">
+				<h3>Sprachen</h3>
+			</aside>
+			<div class="col-sm-9">
+				<div class="row">
+					<div class="col-sm-6">
+						<div class="language">
+							<strong>Deutsch</strong>
+						</div>
+						<div class="fluency">
+							Muttersprache
+						</div>
+					</div>
+					<div class="col-sm-6">
+						<div class="language">
+							<strong>Englisch</strong>
+						</div>
+						<div class="fluency">
+							Fließend
+						</div>
+					</div>
+				</div>
+			</div>
+		</section> -->
+
+		<!-- <section id="interests" class="row">
+			<aside class="col-sm-3">
+				<h3>Interessen</h3>
+			</aside>
+			<div class="col-sm-9">
+				<div class="row">
+					<div class="col-sm-6">
+						<div class="name">
+							<h4>Technologien</h4>
+						</div>
+						<ul class="keywords">
+							<li>Web</li>
+							<li>Open-Source</li>
+							<li>Crypto</li>
+						</ul>
+					</div>
+					<div class="col-sm-6">
+						<div class="name">
+							<h4>Fitness</h4>
+						</div>
+					</div>
+					<div class="col-sm-6">
+						<div class="name">
+							<h4>Wirtschaft</h4>
+						</div>
+					</div>
+					<div class="col-sm-6">
+						<div class="name">
+							<h4>Musik</h4>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section> -->
+	</div>
+
+</body>
+
+</html>
