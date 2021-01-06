@@ -1,7 +1,7 @@
 {
   "basics": {
     "name": "Philipp Walter",
-    "label": "JavaScript Engineer",
+    "label": "Fullstack JavaScript Engineer",
     "picture": "",
     "email": "philippwalter@pm.me",
     "phone": "+436605793113",
@@ -9,7 +9,7 @@
       "name": "pwltr.me",
       "url": "https://www.pwltr.me"
     },
-    "summary": "Full Stack JavaScript Engineer - I have been building scalable applications for years. My interests lie in FinTech, Saas and Crypto. Skilled co-workers, clear processes and focus on the end-product have a high priority for me.",
+    "summary": "I have been building scalable applications for web, mobile and desktop for nore than 5 years. My interests lie in FinTech, Saas and Crypto. Experienced co-workers, clear processes and focus on the end-product have a high priority for me.",
     "location": {
       "city": "Vienna"
     },
@@ -53,7 +53,7 @@
     },
     {
       "company": "abss interactive",
-      "position": "Lead Frontend Developer",
+      "position": "Lead Developer",
       "website": {
         "name": "abss.at",
         "url": "https://www.abss.at"
@@ -62,8 +62,8 @@
       "endDate": "2019-01-31",
       "summary": "Web agency that builds web and mobile apps and also complex custom solutions. Conception, design, development, hosting and maintainance",
       "highlights": [
-        "Designed frontend architecture to improve project maintainability",
-        "Set up frontend build tooling and development environments with Docker",
+        "Designed architecture to improve project maintainability",
+        "Set up build tooling and development environments with Docker",
         "Wrote documentation to ease developer onboarding",
         "Mentored junior developers and taught best practices",
         "Advised customers in technical meetings and via online communications",
@@ -74,12 +74,13 @@
       ]
     },
     {
-      "company": "Freelance Webdeveloper",
+      "company": "Freelance App Development",
       "startDate": "2013-07-01",
       "endDate": "today",
       "summary": "Development & Design, Consulting",
       "highlights": [
-        "Client consulting for web solutions",
+        "Developed web apps, mobile apps marketing sites",
+        "Consulted clients and teams regarding web solutions",
         "Enhancement and maintainance of legacy web applications",
         "Training of clients in various CMS"
       ]
@@ -91,8 +92,8 @@
       "area": "Information Technology",
       "studyType": "Online, Books",
       "startDate": "2013-01-01",
-      "endDate": "2019-01-01",
-      "plattforms": ["freeCodeCamp", "Treehouse", "Udemy"],
+      "endDate": "today",
+      "platforms": ["freeCodeCamp", "Treehouse", "Udemy"],
       "books": ["Eloquent JavaScript", "JavaScript Design Patterns", "You Don't Know JS"]
     }
   ],

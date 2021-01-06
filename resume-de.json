@@ -1,7 +1,7 @@
 {
   "basics": {
     "name": "Philipp Walter",
-    "label": "JavaScript Engineer",
+    "label": "Fullstack JavaScript Engineer",
     "picture": "",
     "email": "philippwalter@pm.me",
     "phone": "+436605793113",
@@ -9,7 +9,7 @@
       "name": "pwltr.me",
       "url": "https://www.pwltr.me"
     },
-    "summary": "Full Stack JavaScript Developer - Ich entwickle skalierbare Applikationen mit JS und Node.js. Mein Interesse liegt im FinTech Bereich, Saas und Crypto. Ein erfahrenes Team, klare Prozesse und ein Fokus auf das Endprodukt haben für mich einen hohen Stellenwert.",
+    "summary": "Seit mehr als 5 Jahren entwickle ich skalierbare Applikationen für Web, Mobile und Desktop. Mein Interesse liegt im Bereich Fintech, Saas und Crypto. Ein erfahrenes Team, klare Prozesse und ein Fokus auf das Endprodukt haben für mich einen hohen Stellenwert.",
     "location": {
       "city": "Wien"
     },
@@ -52,7 +52,7 @@
     },
     {
       "company": "abss interactive",
-      "position": "Lead Frontend Developer",
+      "position": "Lead Developer",
       "website": {
         "name": "abss.at",
         "url": "https://www.abss.at"
@@ -62,8 +62,8 @@
       "summary": "Online-Agentur, die neben Web- und Mobile-Projekten auch komplexe technische Lösungen entwickelt. Konzeption, Design, Entwicklung, Hosting und Wartung",
       "highlights": [
         "Erstellung von wartbarem und wiederverwendbarem Frontend-Code mit Anbindung an ein custom Backend",
-        "Design von Frontend-Architekturen zur Verbesserung der Projektwartbarkeit",
-        "Einrichten von Frontend-Build-Tooling und Entwicklungsumgebungen mit Docker",
+        "Design von Architekturen zur Verbesserung der Projektwartbarkeit",
+        "Einrichten von Build-Tooling und Entwicklungsumgebungen mit Docker",
         "Erstellung von Dokumentationen um Entwickler Onboarding zu erleichtern",
         "Unterstützung von Junior-Entwicklern und Weitergeben von Best Practices",
         "Optimierung interner Prozesse und Einführung organisatorischer Mittel wie Git und Docker",
@@ -73,12 +73,13 @@
       ]
     },
     {
-      "company": "Freelance Webdeveloper",
+      "company": "Freelance App Development",
       "startDate": "2013-07-01",
       "endDate": "aktuell",
-      "summary": "Development & Design, Consulting",
+      "summary": "App & Mobile Development, Consulting",
       "highlights": [
-        "Beratung von Kunden für Web-Lösungen",
+        "Entwicklung von Web Apps, mobile Apps und Marketing Websites",
+        "Beratung von Kunden und Teams für Web-Lösungen",
         "Erweiterung und Wartung bestehender Webapplikationen",
         "Einschulungen von Kunden in diversen CMS"
       ]
@@ -90,25 +91,26 @@
       "area": "Information Technology",
       "studyType": "Online, Bücher",
       "startDate": "2013-01-01",
-      "endDate": "2019-01-01",
-      "courses": ["freeCodeCamp", "Treehouse", "Khan Academy", "Udemy", "Codecademy"]
+      "endDate": "aktuell",
+      "platforms": ["freeCodeCamp", "Treehouse", "Udemy"],
+      "books": ["Eloquent JavaScript", "JavaScript Design Patterns", "You Don't Know JS"]
     }
   ],
   "skills": [
     {
       "name": "Frontend",
       "level": "Master",
-      "keywords": ["Javascript ES6+", "TypeScript", "React & React Native", "GraphQL", "Webpack"]
+      "keywords": ["TypeScript", "React & React Native", "GraphQL", "Webpack"]
     },
     {
       "name": "Backend",
       "level": "Master",
-      "keywords": ["Node.js (Next.js, Express)", "PostgreSQL", "TypeORM", "Docker", "Git"]
+      "keywords": ["Node.js (Next.js, Express)", "TypeORM", "PostgreSQL", "Docker"]
     },
     {
       "name": "Stacks",
       "level": "Master",
-      "keywords": ["Next.js / GraphQL / TypeORM / PostgreSQL", "JAM Stack für Blogs u. Landingpages"]
+      "keywords": ["Next.js / GraphQL / TypeORM / PostgreSQL", "JAM Stack für Blogs und Marketing Sites"]
     },
     {
       "name": "Design Tools",
