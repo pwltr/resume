@@ -1,0 +1,155 @@
+{
+  "basics": {
+    "name": "Philipp Walter",
+    "label": "JavaScript Engineer",
+    "picture": "",
+    "email": "philippwalter@pm.me",
+    "phone": "+436605793113",
+    "website": {
+      "name": "pwltr.me",
+      "url": "https://www.pwltr.me"
+    },
+    "summary": "Full Stack JavaScript Engineer - I have been building scalable applications for years. My interests lie in FinTech, Saas and Crypto. Skilled co-workers, clear processes and focus on the end-product have a high priority for me.",
+    "location": {
+      "city": "Vienna"
+    },
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "username": "philippwalter",
+        "url": "linkedin.com/in/philipp-walter"
+      },
+      {
+        "network": "Twitter",
+        "username": "@_backdot",
+        "url": "https://twitter.com/_backdot"
+      },
+      {
+        "network": "Github",
+        "username": "backdot",
+        "url": "https://github.com/backdot"
+      }
+    ]
+  },
+  "work": [
+    {
+      "company": "FINABRO",
+      "position": "Senior Frontend Developer",
+      "website": {
+        "name": "finabro.at",
+        "url": "https://www.finabro.at"
+      },
+      "startDate": "2019-04-01",
+      "endDate": "today",
+      "summary": "Startup - digital pension platform",
+      "highlights": [
+        "Built a design system for company wide usage",
+        "Rewrote multiple frontends using TypeScript and other technologies",
+        "Ensured test coverage with unit testing, visual regression and e2e tests",
+        "Took ownership of features from design to implementation and testing to deployment",
+        "Worked closely with product, designers, backend developers and QA",
+        "Followed an agile development process with short release cycles and highly frequent deployments"
+      ]
+    },
+    {
+      "company": "abss interactive",
+      "position": "Lead Frontend Developer",
+      "website": {
+        "name": "abss.at",
+        "url": "https://www.abss.at"
+      },
+      "startDate": "2015-06-01",
+      "endDate": "2019-01-31",
+      "summary": "Web agency that builds web and mobile apps and also complex custom solutions. Conception, design, development, hosting and maintainance",
+      "highlights": [
+        "Designed frontend architecture to improve project maintainability",
+        "Set up frontend build tooling and development environments with Docker",
+        "Wrote documentation to ease developer onboarding",
+        "Mentored junior developers and taught best practices",
+        "Advised customers in technical meetings and via online communications",
+        "Continually evaluated emerging technologies and shared them with the team",
+        "Optimized internal documentation and processes",
+        "Introduced infrastructure and organizational tools to the team",
+        "Ensured the technical feasibility of UI/UX designs"
+      ]
+    },
+    {
+      "company": "Freelance Webdeveloper",
+      "startDate": "2013-07-01",
+      "endDate": "today",
+      "summary": "Development & Design, Consulting",
+      "highlights": [
+        "Client consulting for web solutions",
+        "Enhancement and maintainance of legacy web applications",
+        "Training of clients in various CMS"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "Self-directed Learning",
+      "area": "Information Technology",
+      "studyType": "Online, Books",
+      "startDate": "2013-01-01",
+      "endDate": "2019-01-01",
+      "plattforms": ["freeCodeCamp", "Treehouse", "Udemy"],
+      "books": ["Eloquent JavaScript", "JavaScript Design Patterns", "You Don't Know JS"]
+    }
+  ],
+  "skills": [
+    {
+      "name": "Frontend",
+      "level": "Master",
+      "keywords": ["TypeScript", "React & React Native", "GraphQL", "Webpack"]
+    },
+    {
+      "name": "Backend",
+      "level": "Master",
+      "keywords": ["Node.js (Next.js, Express)", "PostgreSQL", "TypeORM", "Docker"]
+    },
+    {
+      "name": "Stacks",
+      "level": "Master",
+      "keywords": ["Next.js / GraphQL / TypeORM / PostgreSQL", "JAM Stack for blogs & marketing sites"]
+    },
+    {
+      "name": "Design Tools",
+      "level": "Working Knowledge",
+      "keywords": ["Adobe Illustrator", "Sketch", "Invision"]
+    }
+  ],
+  "languages": [
+    {
+      "language": "German",
+      "fluency": "Native"
+    },
+    {
+      "language": "Englisch",
+      "fluency": "Fluent"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Technology",
+      "keywords": ["FinTech", "Open-Source", "AI", "Crypto"]
+    },
+    {
+      "name": "Economics",
+      "keywords": []
+    },
+    {
+      "name": "Fitness",
+      "keywords": []
+    },
+    {
+      "name": "Music",
+      "keywords": []
+    }
+  ],
+  "references": [
+    {
+      "name": "Vinzenz Schwarz (abss interactive)",
+      "reference": "Mr. Walter was able to convince both as a project manager of individual projects and as a team player. He has a wide, always available expertise, with which he solved even difficult questions successfully. On his own initiative, he was always educated and always ready to share his knowledge and skills with others. (translated)"
+    }
+  ]
+}

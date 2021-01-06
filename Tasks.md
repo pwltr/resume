@@ -1,0 +1,2 @@
+- fork https://github.com/jsonresume/resume-cli
+- support multi language

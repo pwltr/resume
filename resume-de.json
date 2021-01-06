@@ -2,11 +2,14 @@
   "basics": {
     "name": "Philipp Walter",
     "label": "JavaScript Engineer",
-    "picture": "https://media.licdn.com/dms/image/C4E03AQFhBnMbafNATw/profile-displayphoto-shrink_200_200/0?e=1554940800&v=beta&t=UByNfrP48F_p6AKydqCDwqmXpBZ1NKUqzHXe_MSsiE4",
+    "picture": "",
     "email": "philippwalter@pm.me",
     "phone": "+436605793113",
-    "website": "https://pwltr.me",
-    "summary": "FullStack JavaScript Developer mit Leidenschaft für die Entwicklung und dem Erlernen von Technologien. Ich bin in der Lage ein breites Spektrum an Lösungen umzusetzen und bereit eigenverantwortlich und aktiv zu handeln. Teamarbeit und der gemeinsame Austausch von Ideen sind für mich bei jedem Projekt Vorraussetzung.",
+    "website": {
+      "name": "pwltr.me",
+      "url": "https://www.pwltr.me"
+    },
+    "summary": "Full Stack JavaScript Developer - Ich entwickle skalierbare Applikationen mit JS und Node.js. Mein Interesse liegt im FinTech Bereich, Saas und Crypto. Ein erfahrenes Team, klare Prozesse und ein Fokus auf das Endprodukt haben für mich einen hohen Stellenwert.",
     "location": {
       "city": "Wien"
     },
@@ -14,7 +17,7 @@
       {
         "network": "LinkedIn",
         "username": "philippwalter",
-        "url": "linkedin.com/in/philipp-walter"
+        "url": "https://linkedin.com/in/philipp-walter"
       },
       {
         "network": "Twitter",
@@ -30,14 +33,35 @@
   },
   "work": [
     {
+      "company": "FINABRO",
+      "position": "Senior Frontend Developer",
+      "website": {
+        "name": "finabro.at",
+        "url": "https://www.finabro.at"
+      },
+      "startDate": "2019-04-01",
+      "endDate": "aktuell",
+      "summary": "Startup - digitale Plattform für finanzielle Vorsorge",
+      "highlights": [
+        "Erstellung eines Design Systems für unternehmensweite Verwendung",
+        "Modernisierung mehrerer Frontends mit TypeScript und anderen Technologien",
+        "Absicherung der Codebasis mit Unit-, Visual Regression und E2E Tests",
+        "Laufende Verbesserung des Produkts in Zusammenarbeit mit Projektmanagement, Backend, Design und QA",
+        "Einhaltung eines agilen Entwicklungsprozesses mit kurzen Release-Zyklen und sehr häufigen Deployments"
+      ]
+    },
+    {
       "company": "abss interactive",
-      "position": "(Lead) Frontend Developer",
-      "website": "https://abss.at",
+      "position": "Lead Frontend Developer",
+      "website": {
+        "name": "abss.at",
+        "url": "https://www.abss.at"
+      },
       "startDate": "2015-06-01",
       "endDate": "2019-01-31",
       "summary": "Online-Agentur, die neben Web- und Mobile-Projekten auch komplexe technische Lösungen entwickelt. Konzeption, Design, Entwicklung, Hosting und Wartung",
       "highlights": [
-        "Erstellung von wartbarem und wiederverwendbarem Frontend-Code mit Anbindung an ein eigenes Backend",
+        "Erstellung von wartbarem und wiederverwendbarem Frontend-Code mit Anbindung an ein custom Backend",
         "Design von Frontend-Architekturen zur Verbesserung der Projektwartbarkeit",
         "Einrichten von Frontend-Build-Tooling und Entwicklungsumgebungen mit Docker",
         "Erstellung von Dokumentationen um Entwickler Onboarding zu erleichtern",
@@ -45,20 +69,18 @@
         "Optimierung interner Prozesse und Einführung organisatorischer Mittel wie Git und Docker",
         "Beratung von Kunden bei technischen Meetings und via Online-Kommunikation",
         "Browser- und Performanceoptimierung bestehender Applikationen",
-        "Automatisierung langwieriger Schritte bei der Erstellung von responsive Newslettern und Landingpages",
-        "Einhaltung eines agilen Entwicklungsprozesses mit kurzen Release-Zyklen und sehr häufigen Deployments"
+        "Automatisierung langwieriger Schritte bei der Erstellung von responsive Newslettern und Landingpages"
       ]
     },
     {
       "company": "Freelance Webdeveloper",
       "startDate": "2013-07-01",
-      "endDate": "2015-05-31",
-      "summary": "Development & Design, Content Management, SEO, Consulting",
+      "endDate": "aktuell",
+      "summary": "Development & Design, Consulting",
       "highlights": [
-        "Beratung von Kunden für Web-Lösungen und Support via Online-Kommunikation",
+        "Beratung von Kunden für Web-Lösungen",
         "Erweiterung und Wartung bestehender Webapplikationen",
-        "Einschulungen in diversen CMS wie WordPress und Typo3",
-        "Betreuung von Content-Management und Weitergabe von SEO Know-How"
+        "Einschulungen von Kunden in diversen CMS"
       ]
     }
   ],
@@ -69,56 +91,29 @@
       "studyType": "Online, Bücher",
       "startDate": "2013-01-01",
       "endDate": "2019-01-01",
-      "courses": [
-        "freeCodeCamp",
-        "Treehouse",
-        "Khan Academy",
-        "Udemy",
-        "Codecademy"
-      ]
+      "courses": ["freeCodeCamp", "Treehouse", "Khan Academy", "Udemy", "Codecademy"]
     }
   ],
   "skills": [
     {
       "name": "Frontend",
       "level": "Master",
-      "keywords": [
-        "Javascript ES6+",
-        "TypeScript",
-        "React & React Native",
-        "GraphQL",
-        "Webpack",
-        "SASS"
-      ]
+      "keywords": ["Javascript ES6+", "TypeScript", "React & React Native", "GraphQL", "Webpack"]
     },
     {
       "name": "Backend",
       "level": "Master",
-      "keywords": [
-        "Node.js (Next.js, Express.js)",
-        "PostgreSQL",
-        "TypeORM",
-        "PHP (Laravel)",
-        "Docker",
-        "Git"
-      ]
+      "keywords": ["Node.js (Next.js, Express)", "PostgreSQL", "TypeORM", "Docker", "Git"]
     },
     {
       "name": "Stacks",
       "level": "Master",
-      "keywords": [
-        "Next.js / GraphQL / TypeORM / PostgreSQL",
-        "JAM Stack für Blogs u. Landingpages"
-      ]
+      "keywords": ["Next.js / GraphQL / TypeORM / PostgreSQL", "JAM Stack für Blogs u. Landingpages"]
     },
     {
       "name": "Design Tools",
       "level": "Working Knowledge",
-      "keywords": [
-        "Adobe Illustrator",
-        "Sketch",
-        "Invision"
-      ]
+      "keywords": ["Adobe Illustrator", "Sketch", "Invision"]
     }
   ],
   "languages": [
@@ -134,11 +129,7 @@
   "interests": [
     {
       "name": "Technology",
-      "keywords": [
-        "Web",
-        "Open-Source",
-        "Crypto"
-      ]
+      "keywords": ["FinTech", "Open-Source", "AI", "Crypto"]
     },
     {
       "name": "Fitness",

@@ -1,19 +1,19 @@
 {
   "name": "resume",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "build": "resume-cli export resume-en.html",
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "",
+  "description": "resume generator",
+  "author": "Philipp Walter",
   "license": "ISC",
-  "dependencies": {
-    "lodash": ">=4.17.5",
-    "uglify-js": ">=2.6.0"
+  "scripts": {
+    "start": "resume serve --resume resume-de.json --silent",
+    "start:en": "resume serve --resume resume-en.json --silent",
+    "export": "resume export --theme flat-remix resume.html",
+    "export:pdf": "resume export --theme flat-remix --format pdf cv-philippwalter.pdf"
   },
-  "devDependencies": {
-    "resume-cli": "^1.1.2"
+  "dependencies": {
+    "handlebars": "^2.0.0-alpha.4",
+    "lodash": ">=4.17.5",
+    "resume-cli": "^1.2.8",
+    "uglify-js": ">=2.6.0"
   }
 }
