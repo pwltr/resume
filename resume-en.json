@@ -101,7 +101,7 @@
     {
       "name": "Frontend",
       "level": "Master",
-      "keywords": ["TypeScript", "React & React Native", "GraphQL", "Webpack"]
+      "keywords": ["TypeScript", "React & React Native", "GraphQL", "Webpack / ESBuild"]
     },
     {
       "name": "Backend",
