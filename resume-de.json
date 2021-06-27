@@ -9,7 +9,7 @@
       "name": "pwltr.me",
       "url": "https://www.pwltr.me"
     },
-    "summary": "Seit mehr als 5 Jahren entwickle ich skalierbare Applikationen für Web, Mobile und Desktop. Mein Interesse liegt im Bereich Fintech, Saas und Crypto. Ein erfahrenes Team, klare Prozesse und ein Fokus auf das Endprodukt haben für mich einen hohen Stellenwert.",
+    "summary": "Ich entwickle skalierbare Applikationen für Web, Mobile und Desktop. Mein Interesse liegt im Bereich Fintech, InsureTech und Remote Learning. Ein erfahrenes Team, klar definierte Prozesse und ein Fokus auf den User und das Endprodukt sind für mich Vorraussetzung für ein erfolgreiches Projekt.",
     "location": {
       "city": "Wien"
     },
@@ -21,8 +21,8 @@
       },
       {
         "network": "Twitter",
-        "username": "@_pwtlr",
-        "url": "https://twitter.com/_pwtlr"
+        "username": "@_pwltr",
+        "url": "https://twitter.com/_pwltr"
       },
       {
         "network": "Github",
@@ -43,7 +43,8 @@
       "endDate": "aktuell",
       "summary": "Startup - digitale Plattform für finanzielle Vorsorge",
       "highlights": [
-        "Erstellung eines Design Systems für unternehmensweite Verwendung",
+        "Entwicklung von Signups, Dashboards und CRM Systemen für Web u. App",
+        "Erstellung eines Design Systems für plattform-weite Verwendung",
         "Modernisierung mehrerer Frontends mit TypeScript und anderen Technologien",
         "Absicherung der Codebasis mit Unit-, Visual Regression und E2E Tests",
         "Laufende Verbesserung des Produkts in Zusammenarbeit mit Projektmanagement, Backend, Design und QA",
@@ -61,7 +62,7 @@
       "endDate": "2019-01-31",
       "summary": "Online-Agentur, die neben Web- und Mobile-Projekten auch komplexe technische Lösungen entwickelt. Konzeption, Design, Entwicklung, Hosting und Wartung",
       "highlights": [
-        "Erstellung von wartbarem und wiederverwendbarem Frontend-Code mit Anbindung an ein custom Backend",
+        "Entwicklung von wartbarem und wiederverwendbarem Frontend-Code mit Anbindung an ein custom Backend",
         "Design von Architekturen zur Verbesserung der Projektwartbarkeit",
         "Einrichten von Build-Tooling und Entwicklungsumgebungen mit Docker",
         "Erstellung von Dokumentationen um Entwickler Onboarding zu erleichtern",
@@ -100,7 +101,7 @@
     {
       "name": "Frontend",
       "level": "Master",
-      "keywords": ["TypeScript", "React & React Native", "GraphQL", "Webpack"]
+      "keywords": ["TypeScript", "React & React Native", "GraphQL", "Webpack / ESBuild"]
     },
     {
       "name": "Backend",
@@ -131,7 +132,7 @@
   "interests": [
     {
       "name": "Technology",
-      "keywords": ["FinTech", "Open-Source", "AI", "Crypto"]
+      "keywords": ["FinTech", "Open-Source", "AI"]
     },
     {
       "name": "Fitness",
