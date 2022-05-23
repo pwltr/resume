@@ -11,9 +11,9 @@
     "export:pdf": "resume export --theme flat-remix --format pdf cv-philippwalter.pdf"
   },
   "dependencies": {
-    "handlebars": "^2.0.0-alpha.4",
-    "lodash": ">=4.17.5",
-    "resume-cli": "^1.2.8",
-    "uglify-js": ">=2.6.0"
+    "handlebars": "^4.7.7",
+    "lodash": "^4.17.21",
+    "resume-cli": "^3.0.7",
+    "uglify-js": "^3.15.5"
   }
 }

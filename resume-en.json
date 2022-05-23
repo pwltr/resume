@@ -1,7 +1,7 @@
 {
   "basics": {
     "name": "Philipp Walter",
-    "label": "Fullstack JavaScript Engineer",
+    "label": "Fullstack Engineer",
     "picture": "",
     "email": "philippwalter@pm.me",
     "phone": "+436605793113",
@@ -33,6 +33,22 @@
   },
   "work": [
     {
+      "company": "Zurich",
+      "position": "Web Developer",
+      "website": {
+        "name": "zurich.com",
+        "url": "https://www.zurich.com/"
+      },
+      "startDate": "2021-09-01",
+      "endDate": "2021-12-31",
+      "summary": "Zurich Insurance Group",
+      "highlights": [
+        "Launched multiple web products built from front to back",
+        "Worked in large team coordinated mostly remotely",
+        "Followed agile development processes in a structured environment"
+      ]
+    },
+    {
       "company": "FINABRO",
       "position": "Senior Frontend Developer",
       "website": {
@@ -40,7 +56,7 @@
         "url": "https://www.finabro.at"
       },
       "startDate": "2019-04-01",
-      "endDate": "today",
+      "endDate": "2021-12-31",
       "summary": "Startup - digital pension platform",
       "highlights": [
         "Built a design system for company wide usage",
